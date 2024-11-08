@@ -1,0 +1,841 @@
+/* Flex container to keep everything centered */ 
+
+.container { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    align-items: center; 
+
+    height: 100vh; /* Full viewport height */ 
+
+    width:100vh; 
+
+    position: relative; 
+
+    overflow: hidden; 
+
+} 
+
+.frame{ 
+
+    position: absolute; 
+
+    width: 850px; /* Width of the frame */ 
+
+    height: 800px; /* Height of the frame */ 
+
+    border: 50px solid black; /* Thick border for the frame */ 
+
+    background-color: transparent; /* Transparent background */ 
+
+    box-sizing: border-box;  
+
+    /* Ensures border is included in the element's dimensions */ 
+
+    top:400px; 
+
+    left:240px; 
+
+    z-index: 5; 
+
+} 
+
+.firstline{ 
+
+    position:absolute; 
+
+    width: 10%; /* Diameter of the circle */ 
+
+    height: 10%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:52%; 
+
+    left:52%; 
+
+     
+
+} 
+
+.secondline{ 
+
+    position:absolute; 
+
+    width: 14%; /* Diameter of the circle */ 
+
+    height: 14%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:50.4%; 
+
+    left:50%; 
+
+ 
+ 
+
+} 
+
+.thirdline{ 
+
+    position:absolute; 
+
+    width: 20%; /* Diameter of the circle */ 
+
+    height: 20%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:48%; 
+
+    left:47%; 
+
+ 
+ 
+
+} 
+
+.fourthline{ 
+
+    position:absolute; 
+
+    width: 25%; /* Diameter of the circle */ 
+
+    height: 25%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:46%; 
+
+    left:45%; 
+
+ 
+ 
+
+} 
+
+.fifthline{ 
+
+    position:absolute; 
+
+    width: 29%; /* Diameter of the circle */ 
+
+    height: 29%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:45%; 
+
+    left:43%; 
+
+ 
+ 
+
+} 
+
+.sixthline{ 
+
+    position:absolute; 
+
+    width: 34%; /* Diameter of the circle */ 
+
+    height: 34%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:43%; 
+
+    left:40%; 
+
+ 
+ 
+
+} 
+
+.sevethline{ 
+
+    position:absolute; 
+
+    width: 40%; /* Diameter of the circle */ 
+
+    height: 40%; 
+
+    border: 3px solid black; /* Outline color and thickness */ 
+
+    background-color: transparent; /* No fill */ 
+
+    border-radius: 50%; /* Makes it a circle */ 
+
+    top:40%; 
+
+    left:37%; 
+
+} 
+
+.hair{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:300px; 
+
+    top:35%; 
+
+    left:15%; 
+
+    background-color: black; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(10deg) scale(1) scaleY(4); 
+
+ 
+ 
+
+} 
+.hair2{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:300px; 
+
+    top:35%; 
+
+    left:55%; 
+
+    background-color: black; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(10deg) scale(1) scaleY(4); 
+
+ 
+ 
+
+} 
+.hair3{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:300px; 
+
+    top:41%; 
+
+    left:10%; 
+
+    background-color: black; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(30deg) scale(1) scaleY(3); 
+
+ 
+ 
+
+} 
+.hair4{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:300px; 
+
+    top:30%; 
+
+    left:30%; 
+
+    background-color: black; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(10deg) scale(1) scaleY(2); 
+
+ 
+ 
+
+} 
+.eyebrow{
+    position: absolute; 
+
+    width:28%; 
+
+    height:300px; 
+
+    top:35%; 
+
+    left:30%; 
+
+    background-color: black; 
+
+    clip-path: path("M30,100 q300,5 200,120 T310,100"); 
+
+    transform: rotate(150deg) scale(1) scaleX(2); 
+
+}
+.scratch1{
+    position: absolute; 
+
+    width:100px; 
+
+    height:2px; 
+
+    top:84%; 
+
+    left:60%; 
+    border-radius: 5%;
+
+    background-color: black; 
+    transform: rotate(90deg);
+
+    
+}
+.scratch2{
+    position: absolute; 
+
+    width:100px; 
+
+    height:2px; 
+
+    top:84%; 
+
+    left:56%; 
+    border-radius: 5%;
+
+    background-color: black; 
+    transform: rotate(90deg);
+
+    
+}
+.scratch3{
+    position: absolute; 
+
+    width:100px; 
+
+    height:2px; 
+
+    top:84%; 
+
+    left:60%; 
+    border-radius: 5%;
+
+    background-color: black; 
+    transform: rotate(60deg);
+
+    
+}
+.scratch4{
+    position: absolute; 
+
+    width:100px; 
+
+    height:2px; 
+
+    top:86%; 
+
+    left:55%; 
+    border-radius: 5%;
+
+    background-color: black; 
+    transform: rotate(150deg);
+
+    
+}
+.scratch5{
+    position: absolute; 
+
+    width:100px; 
+
+    height:2px; 
+
+    top:81%; 
+
+    left:60%; 
+    border-radius: 5%;
+
+    background-color: black; 
+    transform: rotate(150deg);
+
+    
+}
+.scratch6{
+    position: absolute; 
+
+    width:100px; 
+
+    height:2px; 
+
+    top:84%; 
+
+    left:59%; 
+    border-radius: 5%;
+
+    background-color: black; 
+    transform: rotate(150deg);
+
+    
+}
+
+.eye1{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:700px; 
+
+    top:30%; 
+
+    left:60%; 
+
+    background-color: bisque; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(-40deg) scale(2); 
+
+     
+
+     
+
+ 
+ 
+ 
+
+} 
+
+.eye2{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:700px; 
+
+    top:10%; 
+
+    left:45%; 
+
+    background-color: bisque; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(150deg) scale(2) scaleX(-1); 
+
+     
+
+     
+
+ 
+ 
+ 
+
+} 
+
+.eye3{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:700px; 
+
+    top:70%; 
+
+    left:4%; 
+
+    background-color: bisque; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(150deg) scale(2) scaleY(-1); 
+
+} 
+
+.eye4{ 
+
+    position: absolute; 
+
+    width:58%; 
+
+    height:700px; 
+
+    top:40%; 
+
+    left:-10%; 
+
+    background-color: bisque; 
+
+    clip-path: path("M30,120 q200,5 300,120 T310,100"); 
+
+    transform: rotate(140deg) scale(2) scaleX(1); 
+
+} 
+
+.filler1{ 
+
+    position:absolute; 
+
+    width:58%; 
+
+    height:14%; 
+
+    background-color: bisque; 
+
+    top:1000px; 
+
+    left:310px; 
+
+} 
+
+.filler2{ 
+
+    position:absolute; 
+
+    width:5%; 
+
+    height:7%; 
+
+    background-color: bisque; 
+
+    top:960px; 
+
+    left:850px; 
+
+} 
+
+.filler3{ 
+
+    position:absolute; 
+
+    width:50%; 
+
+    height:15%; 
+
+    background-color: bisque; 
+
+    top:400px; 
+
+    left:250px; 
+
+ 
+ 
+
+} 
+
+.filler4{ 
+
+    position:absolute; 
+
+    width:50%; 
+
+    height:16%; 
+
+    background-color: bisque; 
+
+    top:400px; 
+
+    left:382px; 
+
+} 
+
+.filler5{ 
+
+    position:absolute; 
+
+    width:5%; 
+
+    height:60%; 
+
+    background-color: bisque; 
+
+    top:400px; 
+
+    left:282px; 
+
+} 
+
+.filler6{ 
+
+    position:absolute; 
+
+    width:15%; 
+
+    height:22%; 
+
+    background-color: bisque; 
+
+    top:500px; 
+
+    left:340px; 
+
+    transform:rotate(60deg) 
+
+ 
+ 
+ 
+
+} 
+
+/* Central stationary circle */ 
+
+.middlecircle { 
+
+    width: 30px; 
+
+    height: 30px; 
+
+    top:56%; 
+
+    left:56%; 
+
+    background-color: black; 
+
+    border-radius: 50%; 
+
+    position: absolute; 
+
+} 
+
+.innereyecolor{ 
+
+    position:absolute; 
+
+    width:10.5%; 
+
+    height:10.5%; 
+
+    background-color:#9369b9 ; 
+
+    border-radius: 50%; 
+
+    top:52%; 
+
+    left:52%; 
+
+    z-index:-1 
+
+} 
+
+.outtereyecolor{ 
+
+    position:absolute; 
+
+    width:60%; 
+
+    height:60%; 
+
+    background-color: rgb(189, 146, 230); 
+
+    top:30%; 
+
+    z-index:-2; 
+
+ 
+ 
+
+} 
+
+ 
+ 
+
+/* Rotating container for orbiting circles */ 
+
+.innermovingcircle { 
+
+    position: absolute; 
+
+    width: 200px; /* Smaller diameter for a closer orbit */ 
+
+    height: 200px; 
+
+    top: 50%; /* Centered vertically around middlecircle */ 
+
+    left: 50%; /* Centered horizontally around middlecircle */ 
+
+    transform: translate(-50%, -50%); 
+
+    animation: rotate 3s linear infinite; /* Rotation animation */ 
+
+} 
+
+ 
+ 
+
+/* Style for each orbiting circle */ 
+
+.inner { 
+
+    width: 15px; 
+
+    height: 15px; 
+
+    background-color: black; 
+
+    border-radius: 50%; 
+
+    position: absolute; 
+
+} 
+
+ 
+ 
+
+/* Position circles around innermovingcircle's center */ 
+
+.topcircle { 
+
+    top: 0; 
+
+    left: 50%; 
+
+    transform: translateX(-50%); 
+
+} 
+
+ 
+ 
+
+.leftcircle { 
+
+    top: 50%; 
+
+    left: 0; 
+
+    transform: translateY(-50%); 
+
+} 
+
+ 
+ 
+
+.rightcircle { 
+
+    top: 50%; 
+
+    right: 0; 
+
+    transform: translateY(-50%); 
+
+} 
+
+.outtermovingcircle { 
+
+    position: absolute; 
+
+    width: 22%; /* Diameter of the circle */ 
+
+    height: 22%; 
+
+    top:47%; 
+
+    left:46.2%; 
+
+    transform: translate(-200%, -200%); 
+
+    animation: rotate 6s linear infinite; /* Rotation animation */ 
+
+    z-index: -1; 
+
+} 
+
+.outter { 
+
+    width: 15px; 
+
+    height: 15px; 
+
+    background-color: black; 
+
+    border-radius: 50%; 
+
+    position: absolute; 
+
+} 
+
+ 
+ 
+
+.topouttercircle{ 
+
+    top: 0; 
+
+    left: 50%; 
+
+    transform: translateX(-50%); 
+
+} 
+
+.leftouttercircle{ 
+
+    top: 50%; 
+
+    left: 0; 
+
+    transform: translateY(-50%); 
+
+} 
+
+.rightouttercircle{ 
+
+    top: 50%; 
+
+    right: 0; 
+
+    transform: translateY(-50%); 
+
+} 
+
+ 
+ 
+ 
+
+/* Rotation animation*/ 
+
+@keyframes rotate { 
+
+    from { 
+
+        transform: rotate(0deg); 
+
+    } 
+
+    to { 
+
+        transform: rotate(360deg); 
+
+    } 
+
+}  
